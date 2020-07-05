@@ -4,3 +4,44 @@
     box-sizing: border-box;
     font-family: 微軟正黑體;
 }
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+
+    &:nth-child(even){
+        background-color: crimson;
+    }
+
+    span{
+        background-color: #fff;
+        padding: 10px;
+        display: inline-block;
+        margin: 20px 10px;
+
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+.back-to-top{
+    background-color: rgba(0, 0, 0, .7);
+    width: 30px;
+    padding: 30px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50px;
+
+    &::before{
+        content: '^';
+        position: absolute;
+        color: #fff;
+        font-size: 30px;
+        bottom: 5px;
+        right: 19px;
+        cursor: pointer;
+    }
+}
