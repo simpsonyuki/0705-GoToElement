@@ -6,7 +6,7 @@
 
 STEP1 / CDN GoToElement.js
 ```
-https://simpsonyuki.github.io/0705-GoToElement//GoToElement.js
+<script src="https://simpsonyuki.github.io/0705-GoToElement//GoToElement.js"></script>
 ```
 
 STEP2 / 添加屬性
