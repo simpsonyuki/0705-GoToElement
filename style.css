@@ -29,7 +29,7 @@ section span a {
   text-decoration: none;
 }
 
-.back-to-top {
+#back-to-top {
   background-color: rgba(0, 0, 0, 0.7);
   width: 30px;
   padding: 30px;
@@ -39,7 +39,7 @@ section span a {
   border-radius: 50px;
 }
 
-.back-to-top::before {
+#back-to-top::before {
   content: '^';
   position: absolute;
   color: #fff;
